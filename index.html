@@ -18,7 +18,7 @@
             <div class="mb-3 w-50">
                 <input id="search-field" type="email" class="form-control" id="exampleFormControlInput1"
                     placeholder="search your phone">
-                <div id="btn-search" class="btn btn-primary">Search</div>
+                <div id="btn-search" class="btn btn-primary mt-3">Search</div>
             </div>
         </section>
         <!-- loader -->
@@ -29,6 +29,7 @@
                 </div>
             </div>
         </section>
+
         <!-- display Search Result -->
         <section>
             <div id="phones-container" class="row row-cols-1 row-cols-md-3 g-4">
@@ -37,7 +38,7 @@
             <div id="no-found-message" class="mt-4 d-none">
                 <h3 class="text-warning">No Phone Found. Please try a new search</h3>
             </div>
-            <div id="show-all" class="text-center d-none">
+            <div id="show-all" class="text-center d-none mb-5">
                 <div id="btn-show-all" class="btn btn-primary">Show All</div>
             </div>
         </section>
@@ -46,7 +47,7 @@
         <section>
             
             <!-- Modal -->
-            <div class="modal text-white fade" id="phoneDetailModal" tabindex="-1" aria-labelledby="phoneDetailModalLabel"
+            <div class="modal fade" id="phoneDetailModal" tabindex="-1" aria-labelledby="phoneDetailModalLabel"
                 aria-hidden="true">
                 <div class="modal-dialog">
                     <div class="modal-content">
